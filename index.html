@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FA Group</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="#home"><img src="images/logo_2.png" alt="FA Group logo"></a>
+      <nav class="main-nav" id="mainNav">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#entertainment" class="nav-link">Entertainment</a>
+        <a href="#defence" class="nav-link">Defence</a>
+        <a href="#medical" class="nav-link">Medical</a>
+        <a href="#construction" class="nav-link">Construction</a>
+        <a href="#energy" class="nav-link">Energy</a>
+        <a href="#logistic" class="nav-link">Logistic</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Menüyü aç/kapat"><i class="fas fa-bars"></i></button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="hero-section">
+      <img src="images/hero.png" alt="Andrea Bocelli">
+      <div class="hero-overlay">
+        <h1 class="hero-title">We are making solid progress<br>towards the future.</h1>
+        <hr class="hero-hr">
+        <p class="hero-copy">The FA Community's approach to achieving sustainable and profitable growth is called 'Future Together'. It is grounded in our belief in the transformative power of our partnerships.</p>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="life-fa">
+      <div class="container split">
+        <div class="text">
+          <h2>Life at FA - A People-Centered Journey of Creating Value</h2>
+          <hr class="under">
+          <p>At FA Group, people are at the heart of everything we do. Beyond being a strong, multi-sector organization, we are a family that supports the growth of our employees, encourages creativity, and provides a safe, empowering workplace. Our professional workforce stands out not only for their technical expertise and capabilities, but also for their team spirit, ethical values, and innovative mindset.</p>
+          <p>The success of each employee is the success of FA Group. We aim to deliver solutions that go beyond expectations, guided by trust, transparency, and long-term partnerships. For us, customer satisfaction is not just a goal-it is the foundation of our business. Life at FA means achieving together, growing together, and shaping the future together.</p>
+          <a href="#contact" class="btn light">More Information</a>
+        </div>
+        <div class="visual">
+          <img src="images/Women.png" alt="FA Group Woman">
+        </div>
+      </div>
+      <div class="life-bg">
+        <img src="images/red.png" alt="" aria-hidden="true">
+      </div>
+    </section>
+
+    <!-- ENTERTAINMENT SECTION -->
+    <section id="entertainment" class="events section-dark">
+      <div class="container">
+        <header class="section-header">
+          <div class="accent"></div>
+          <h2>International Concerts and Events</h2>
+        </header>
+
+        <div class="events-grid-new">
+          <!-- Sağda takvim -->
+          <aside class="event-list">
+            <h5>INTERNATIONAL<br>CONCERTS AND EVENTS</h5>
+            <ul>
+              <li><span class="date"><span>30</span> JUL</span><div><strong>FATIH ERGINCAN</strong><br><small>LIVE CONCERT / ISTANBUL</small></div></li>
+              <li><span class="date"><span>20</span> AUG</span><div><strong>ROBBIE WILLIAMS</strong><br><small>LIVE CONCERT / DUBAI</small></div></li>
+              <li><span class="date"><span>15</span> SEP</span><div><strong>50 CENT</strong><br><small>LIVE CONCERT / ANKARA</small></div></li>
+              <li><span class="date"><span>26</span> OCT</span><div><strong>ANDREA BOCELLI</strong><br><small>LIVE CONCERT / LONDON</small></div></li>
+              <li><span class="date"><span>12</span> NOV</span><div><strong>UPCOMING EVENT</strong><br><small>LIVE CONCERT / TBA</small></div></li>
+              <li><span class="date"><span>05</span> DEC</span><div><strong>SPECIAL SHOW</strong><br><small>LIVE CONCERT / ANKARA</small></div></li>
+              <li><span class="date"><span>18</span> JAN</span><div><strong>NEW YEAR GALA</strong><br><small>SPECIAL EVENT / ISTANBUL</small></div></li>
+              <li><span class="date"><span>18</span> JAN</span><div><strong>NEW YEAR GALA</strong><br><small>SPECIAL EVENT / ISTANBUL</small></div></li>
+              <li><span class="date"><span>18</span> JAN</span><div><strong>NEW YEAR GALA</strong><br><small>SPECIAL EVENT / ISTANBUL</small></div></li>
+              <li><span class="date"><span>18</span> JAN</span><div><strong>NEW YEAR GALA</strong><br><small>SPECIAL EVENT / ISTANBUL</small></div></li>
+            </ul>
+          </aside>
+
+          <!-- Sol taraf en üst: Robbie büyük -->
+          <article class="event-card wide">
+            <img src="images/Robbie.png" alt="Robbie Williams">
+            <div class="event-overlay">
+              <h4>ROBBIE WILLIAMS</h4>
+              <p>LIVE CONCERT / DUBAI</p>
+            </div>
+          </article>
+
+          <!-- 2. SIRA: 50 Cent - Ayrı hareket edebilir -->
+          <article class="event-card fifty-card">
+            <img src="images/fifty.png" alt="50 Cent">
+            <div class="event-overlay">
+              <h4>50 CENT</h4>
+              <p>LIVE CONCERT / ANKARA</p>
+            </div>
+          </article>
+
+          <!-- 3. SIRA: Bocelli - Ayrı hareket edebilir -->
+          <article class="event-card bocelli-card">
+            <img src="images/Bocelli.png" alt="Andrea Bocelli">
+            <div class="event-overlay">
+              <h4>ANDREA BOCELLI</h4>
+              <p>LIVE CONCERT / LONDON</p>
+            </div>
+          </article>
+
+          <!-- 4. SIRA: Fatih - Alt sırada tek başına -->
+          <article class="event-card fatih-card">
+            <img src="images/Fatih_erg.png" alt="Fatih Ergincan">
+            <div class="event-overlay">
+              <h4>FATIH ERGINCAN</h4>
+              <p>LIVE CONCERT / ISTANBUL</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="newsletter">
+      <div class="container newsletter-grid">
+        <div class="news-left">
+          <h2>Stay informed</h2>
+          <p>Subscribe to our e-newsletter to stay informed about the latest news and developments from FA Group.</p>
+          <form id="newsletterForm" novalidate>
+            <div class="input-row">
+              <input type="email" id="email" placeholder="Please enter your email address below" required>
+              <button type="submit" class="btn">SEND</button>
+            </div>
+            <label class="consent">
+              <input type="checkbox" id="consent" required>
+              <span>"Newsletter membership — In accordance with the disclosure statement, I consent to FA Group processing my identity and contact information for the purpose of promoting its services and providing information about events and news. I also consent to this information being shared with third parties providing services for this limited purpose only. I also consent to receiving commercial electronic messages, such as advertisements and promotions, at my email address."</span>
+            </label>
+            <p class="form-message" aria-live="polite"></p>
+          </form>
+        </div>
+        <div class="news-right">
+          <img class="footer-logo" src="/images/logo_2.png" alt="FA Group">
+          <address>
+            Levent District, Yeni Sülün Street, Begonya No.2<br>
+            Beşiktaş, İstanbul Türkiye<br>
+            +90 212 812 92 45<br>
+            info@holding-fa.com
+          </address>
+          <div class="social large">
+            <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> FA Group. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
